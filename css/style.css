@@ -1,0 +1,150 @@
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #497cbe;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin: 0;
+    border-radius: 0;
+    display: block;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h1, h2 {
+    color: #003366;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px 0;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    background-color: #497cbe;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0055aa;
+}
+
+footer {
+    text-align: center;
+    background-color: #497cbe;
+    color: white;
+    padding: 15px;
+}
+
+/* Responsive Layout */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav li {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        margin: 10px;
+    }
+    
+}

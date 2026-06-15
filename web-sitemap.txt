@@ -1,0 +1,5 @@
+Home (index.html)
+│
+├── Prototype 1 (prototype1.html)
+├── Prototype 2 (prototype2.html)
+└── Final Design (final-design.html)
